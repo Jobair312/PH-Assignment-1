@@ -1,0 +1,396 @@
+  /* nav style start */
+  nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      align-items: center;
+
+  }
+
+  .container {
+      max-width: 1200px;
+      margin: 15px auto;
+
+  }
+
+  ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+      gap: 10px;
+      align-items: center;
+  }
+
+  .common-btn {
+      background-color: #5e7ef1;
+      padding: 10px 20px;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 22px;
+      color: white;
+      border: none;
+      cursor: pointer;
+  }
+
+  ul li a {
+      text-decoration: none;
+      color: black;
+      
+
+  }
+
+  .link {
+      gap: 30px;
+  }
+
+  /* nav style end */
+
+
+  /* hero style start */
+  .hero {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 600px;
+      background-image: url("assets/banner.jpg");
+  }
+
+  .hero-content {
+      text-align: center;
+      color: white;
+      max-width: 700px;
+      padding: 20px;
+      margin-bottom: 20px;
+  }
+
+  .hero-content h1 {
+      font-size: 4rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+  }
+
+  .hero-content p {
+      font-size: 1.2rem;
+      color: #d9d9d9;
+      margin-bottom: 40px;
+  }
+
+  .reg-btn {
+      background-color: #5e7ef1;
+      padding: 10px 20px;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 22px;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-top: 200px;
+  }
+
+  /* hero style end */
+
+  /* speaker style start */
+
+  .speakers {
+
+      max-width: 1350px;
+      margin: 40px auto;
+  }
+
+  .speakers h1 {
+      text-align: center;
+      margin-bottom: 40px;
+  }
+
+  .speaker-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px
+  }
+
+  .card {
+
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 5px;
+      padding: 10px;
+  }
+
+  /* speaker style end */
+
+
+
+
+
+  /* pricing style start */
+
+  .title {
+      text-align: center;
+  }
+.title p{
+    margin-bottom:65px;
+     
+  }
+
+
+  .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+      align-items: center;
+      max-width: 1000px;
+      margin: 0 auto;
+
+
+  }
+
+  .price-card {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #9eb1d7;
+      border-radius: 10px;
+      padding: 28px 26px 26px;
+      width: 280px;
+
+  }
+
+  .features {
+      display: flex;
+      flex-direction: column;
+
+  }
+
+  .features li {
+      display: flex;
+      justify-content: center;
+      font-size: 15px;
+      text-align: center;
+      color: black;
+  }
+
+  hr {
+      border: 1px solid gray;
+      margin: 20px 0;
+  }
+
+  .btn {
+      padding: 10px 20px;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 22px;
+      width: 100%;
+      padding: 11px 0;
+      cursor: pointer;
+      text-align: center;
+      background-color: #597aef;
+      color: white;
+  }
+
+  .outline-btn {
+      background-color: #5e7ef1;
+      padding: 10px 20px;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 22px;
+      color: white;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+       
+  }
+
+  .pro-card {
+      display: flex;
+      flex-direction: column;
+      border: 1px solid #e5e7eb;
+      border-radius: 10px;
+      padding: 28px 26px 26px;
+      width: 280px;
+      background-color: rgb(6, 6, 45);
+      color: white;
+
+  }
+
+  .pro-card li {
+      color: wheat;
+  }
+
+  /* pricing style start */
+
+
+  /* FAQ Section start */
+
+  .FAQ {
+        padding: 100px;   
+  }
+
+  .FAQ-heading {
+      text-align: center;
+      margin-bottom: 60px;
+  }
+
+  .FAQ-heading h2 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+  }
+
+  .faq-header p {
+      font-size: 1.1rem;
+
+  }
+
+  .faq-container {
+      max-width: 850px;
+      margin: auto;
+  }
+
+  .FAQ-contain {
+      background: c;
+      border: 1px solid #97b8fa;
+      border-radius: 22px;
+      padding: 25px;
+      margin-bottom: 20px;
+  }
+
+  .FAQ-contain h3 {
+      font-size: 1.2rem;
+      margin-bottom: 12px;
+  }
+   /* FAQ Section end  */
+
+
+   /* Footer */
+.footer{
+    background:#0f172a;
+    color:#ffffff;
+    padding:80px 8% ;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    gap:60px;
+    
+}
+
+.footer-left{
+     
+    width:300px;
+}
+
+.footer-left h2{
+    font-size:2rem;
+    margin-bottom:20px;
+}
+
+.footer-left p{
+    color:#e2e4e7;
+    
+    margin-bottom:30px;
+   max-width:300px;  
+}
+
+.social-icons{
+    display:flex;
+    gap:15px;
+}
+
+.social-icons a{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+    text-decoration:none;
+    
+}
+
+ 
+
+.footer-right{
+   
+    max-width:320px;
+}
+
+.footer-right h3{
+    margin-bottom:20px;
+    font-size:1.6rem;
+}
+
+.footer-right form{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+}
+
+.footer-right input,
+.footer-right textarea{
+
+    width:100%;
+    padding:15px;
+    border:none;
+    outline:none;
+    border-radius:8px;
+    background:#1e293b;
+    color:#fff;
+    font-size:16px;
+
+}
+
+.footer-right textarea{
+    resize:none;
+    height:140px;
+}
+
+.footer-right input::placeholder,
+.footer-right textarea::placeholder{
+    color:#94a3b8;
+}
+
+.footer-right button{
+
+    width:180px;
+    padding:14px;
+    border:none;
+    border-radius:8px;
+    background:#2563eb;
+    color:#fff;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    
+
+}
+
+.footer hr{
+    border:none;
+    height:1px;
+    background:#334155;
+    margin:60px 0 25px;
+}
+
+.footer-bottom{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+
+}
+
+.footer-bottom p{
+    color:#94a3b8;
+}
+
+.footer-links{
+    display:flex;
+    gap:25px;
+}
+
+.footer-links a{
+    color:#94a3b8;
+    text-decoration:none;
+    
+}
+
+ 
